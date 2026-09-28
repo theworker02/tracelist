@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tracelist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trace CSV/TSV list tables for quick inspection and cleanup.",
+  "bin": {
+    "tracelist": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tracelist.git"
+  },
+  "homepage": "https://theworker02.github.io/tracelist/",
+  "keywords": [
+    "trace",
+    "list",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
